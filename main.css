@@ -1,0 +1,46 @@
+/*reset CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+header {
+  padding: 30px 20px;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  height: 100px;
+}
+
+header nav ul li{
+  display: inline;
+}
+
+/*front-page*/
+#front-page {
+  background-image: url(./imagens/brooke-lark-ZkgWJ4BfgsE-unsplash.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  border-top: #5b3427 5px solid;
+}
+
+#front-page .text {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #5b3427;
+  margin-left: 40px;
+  width: 30%;
+}
