@@ -7,7 +7,53 @@
 
 /*header*/
 header {
-  padding: 30px 20px;
+  padding: 10px 20px;
+}
+
+h1 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 50px;
+  color: #5b3427;
+}
+
+h2 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.text h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.text p,
+#curso .content p {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.text a,
+.produtos a {
+  background-color: #5b3427;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+
+header a {
+  font-family: 'Questrial', sans-serif;
+  text-decoration: none;
+  color: #5b3427;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+h3,
+p,
+a {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container {
@@ -20,8 +66,9 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 header img {
-  height: 100px;
+  height: 80px;
 }
 
 header nav ul li{
@@ -34,7 +81,7 @@ header nav ul li{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   border-top: #5b3427 5px solid;
@@ -50,17 +97,25 @@ header nav ul li{
 }
 
 /*section videos*/
-#videos {
-  background-color: rgb(230, 235, 235);
+#videos,
+#comentarios {
+  background-color: rgb(91, 52, 39, 0.2);
 }
 
 .video {
-  padding: 30px 0;
+  padding: 80px 0;
 }
 
-.video h2 {
+.video h2,
+.produtos h2,
+#curso h2,
+#comentarios h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #5b3427;
 }
 
 .video ul{
@@ -72,15 +127,10 @@ header nav ul li{
 .video ul li{
   width: 45%;
   margin-bottom: 20px;
+  list-style: none;
 }
 
 /*section products*/
-#doces h2,
-#bolos h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 .articles {
   display: flex;
   flex-wrap: wrap;
@@ -93,9 +143,62 @@ header nav ul li{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
+  background-color: rgb(91, 52, 39, 0.2);
+  border-radius: 10px;
 }
 
 .articles article img {
-  width: 308px;
+  width: 100%;
+  height: 300px;
 }
+
+.articles article h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.articles article p {
+  margin-bottom: 20px;
+}
+
+.produtos,
+#curso {
+  background-color: #ffb1bb80;
+  padding: 80px 0;
+}
+
+.produtos article {
+  width: 30%;
+  margin-top: 50px;
+}
+
+#bolos {
+  margin-top: 50px;
+} 
+
+/*section curso*/
+#curso .container .content h2 {
+  text-align: left;
+}
+
+#curso .container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#curso .container .content{
+  margin-right: 30px;
+}
+
+/*section comentarios*/
+#comentarios {
+  padding: 80px 0;
+}
+
+#comentarios img {
+  border-radius: 50%;
+}
+
