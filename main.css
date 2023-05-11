@@ -26,7 +26,8 @@ h2 {
 }
 
 .text p,
-#curso .content p {
+#curso .content p,
+#comentarios article {
   font-size: 25px;
   margin-bottom: 40px;
 }
@@ -52,7 +53,8 @@ header a {
 
 h3,
 p,
-a {
+a,
+#comentarios article {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -200,5 +202,12 @@ header nav ul li{
 
 #comentarios img {
   border-radius: 50%;
+}
+
+#comentarios .container article{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
