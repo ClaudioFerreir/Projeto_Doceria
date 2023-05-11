@@ -8,6 +8,7 @@
 /*header*/
 header {
   padding: 10px 20px;
+  background-color: #ffb1bb80;
 }
 
 h1 {
@@ -111,7 +112,8 @@ header nav ul li{
 .video h2,
 .produtos h2,
 #curso h2,
-#comentarios h2 {
+#comentarios h2,
+#social-medias h2 {
   text-align: center;
   margin-bottom: 50px;
   font-size: 40px;
@@ -225,4 +227,31 @@ header nav ul li{
 #comentarios article cite {
   font-size: 20px;
   font-weight: bold;
+}
+
+/*social-medias section*/
+#social-medias {
+  background-color: #ffb1bb80;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#social-medias h2 {
+  margin-right: 30px;
+  margin-bottom: 0;
+}
+
+#social-medias ul li{
+  display: inline;
+}
+
+#social-medias ul li a{
+  margin-right: 20px;
+}
+
+#social-medias ul li a img{
+  width: 50px;
+  height: 50px; 
 }
