@@ -202,6 +202,11 @@ header nav ul li{
 
 #comentarios img {
   border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#comentarios .articles article {
+  padding: 20px;
 }
 
 #comentarios .container article{
@@ -211,3 +216,13 @@ header nav ul li{
   align-items: center;
 }
 
+#comentarios article blockquote {
+  font-size: 20px;
+  font-style: italic;
+  padding: 20px;
+}
+
+#comentarios article cite {
+  font-size: 20px;
+  font-weight: bold;
+}
