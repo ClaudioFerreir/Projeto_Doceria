@@ -101,7 +101,8 @@ header nav ul li{
 
 /*section videos*/
 #videos,
-#comentarios {
+#comentarios,
+#social-medias {
   background-color: rgb(91, 52, 39, 0.2);
 }
 
@@ -113,7 +114,8 @@ header nav ul li{
 .produtos h2,
 #curso h2,
 #comentarios h2,
-#social-medias h2 {
+#social-medias h2,
+#sobre h2 {
   text-align: center;
   margin-bottom: 50px;
   font-size: 40px;
@@ -231,7 +233,6 @@ header nav ul li{
 
 /*social-medias section*/
 #social-medias {
-  background-color: #ffb1bb80;
   padding: 80px 0;
   display: flex;
   justify-content: center;
@@ -254,4 +255,26 @@ header nav ul li{
 #social-medias ul li a img{
   width: 50px;
   height: 50px; 
+}
+
+/*sobre*/
+#sobre {
+  background-color: #ffb1bb80;
+  padding: 0;
+  display: flex;
+}
+
+#sobre .text {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+}
+
+#sobre img {
+  width: 200%;
+  height: 300%;
+  border-left: #5b3427 5px solid;
 }
