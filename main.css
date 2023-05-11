@@ -44,6 +44,13 @@ form button {
   border-radius: 5px;
   text-align: center;
   border: none;
+  cursor: pointer;
+}
+
+.text a:hover,
+.produtos a:hover,
+form button:hover {
+  background-color: #5b3427d8;
 }
 
 header a {
@@ -52,6 +59,11 @@ header a {
   color: #5b3427;
   margin-left: 20px;
   font-size: 25px;
+  font-weight: bolder;
+}
+
+header a:hover {
+  color: #5b3427b7;
 }
 
 h3,
@@ -338,9 +350,19 @@ form .terms #checkbox-termos {
 
 .formulario .terms {
   font-size: 25px;
+  color: #5b3427;
 }
 
 form button {
   font-size: 25px;
   font-weight: 100;
+  padding: 8px 20px;
+}
+
+form button:hover {
+  background-color: #5b3427d8;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #5b3427; 
 }
