@@ -159,6 +159,13 @@ footer {
   list-style: none;
 }
 
+.video ul li p {
+  font-size: 25px;
+  margin-top: 15px;
+  text-align: center;
+  color: #5b3427;
+}
+
 /*section products*/
 .articles {
   display: flex;
@@ -187,12 +194,15 @@ footer {
   margin-bottom: 10px;
   text-align: center;
   font-size: 30px;
+  color: #5b3427;
 }
 
 .articles article p {
   margin-bottom: 20px;
   padding: 20px;
   font-size: 20px;
+  color: #5b3427;
+  text-align: justify;
 }
 
 .produtos,
@@ -223,6 +233,8 @@ footer {
 
 #curso .container .content{
   margin-right: 30px;
+  color: #5b3427;
+  text-align: justify;
 }
 
 /*section comentarios*/
@@ -250,11 +262,13 @@ footer {
   font-size: 20px;
   font-style: italic;
   padding: 20px;
+  color: #5b3427;
 }
 
 #comentarios article cite {
   font-size: 20px;
   font-weight: bold;
+  color: #5b3427;
 }
 
 /*social-medias section*/
@@ -281,6 +295,7 @@ footer {
 #social-medias ul li a img{
   width: 50px;
   height: 50px; 
+
 }
 
 /*sobre*/
@@ -298,6 +313,8 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 0 50px;
+  color: #5b3427;
+  text-align: justify;
 }
 
 #sobre img {
@@ -385,10 +402,14 @@ input:focus, textarea:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #5b3427;
+  font-size: 25px;
 }
 
-.e-book .text-book {
-  font-size: 25px;
+.e-book .text-book p {
+  text-align: justify;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .e-book .e-book-image img {
@@ -401,4 +422,8 @@ input:focus, textarea:focus {
 footer {
   padding: 8px 0;
   text-align: center;
+}
+
+footer p {
+  color: #5b3427;
 }
