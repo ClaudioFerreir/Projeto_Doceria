@@ -46,6 +46,7 @@ form button,
   text-align: center;
   border: none;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .text a:hover,
@@ -161,6 +162,7 @@ footer {
 
 .video h2 {
   color: #ffb1bb;
+  font-weight: bolder;
 }
 
 .video ul{
