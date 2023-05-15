@@ -7,13 +7,13 @@
 
 /*header*/
 header {
-  padding: 10px 20px;
+  padding: 10px 40px;
   background-color: #ffb1bb80;
 }
 
 h1 {
   font-family: 'Questrial', sans-serif;
-  font-size: 50px;
+  font-size: 30x;
   color: #5b3427;
 }
 
@@ -22,14 +22,14 @@ h2 {
 }
 
 .text h2 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 20px;
 }
 
 .text p,
 #curso .content p,
 #comentarios article {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 40px;
 }
 
@@ -61,7 +61,7 @@ header a {
   text-decoration: none;
   color: #5b3427;
   margin-left: 20px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bolder;
 }
 
@@ -83,7 +83,8 @@ form button {
 
 .container {
   max-width: 1280px;
-  width: 100%;
+  width: 80%;
+  padding: 40px;
   margin: 0 auto;
 }
 .navbar {
@@ -106,7 +107,7 @@ header nav ul li{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   border-top: #5b3427 5px solid;
@@ -128,7 +129,7 @@ header nav ul li{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   border-top: #5b3427 5px solid;
@@ -141,10 +142,6 @@ footer {
   background-color: rgb(91, 52, 39, 0.2);
 }
 
-.video {
-  padding: 80px 0;
-}
-
 .video h2,
 .produtos h2,
 #curso h2,
@@ -153,8 +150,8 @@ footer {
 #sobre h2,
 #contato h2 {
   text-align: center;
-  margin-bottom: 20px;
-  font-size: 40px;
+  margin-bottom: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   font-weight: 500;
   color: #5b3427;
@@ -173,12 +170,11 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
   border-radius: 5px;
 }
 
 .video ul li p {
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 15px;
   background-color: rgba(255, 255, 255, 0.5);
   text-align: center;
@@ -207,21 +203,21 @@ footer {
 
 .articles article img {
   width: 100%;
-  height: 300px;
+  height: 250px;
 }
 
 .articles article h3 {
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   color: #5b3427;
 }
 
 .articles article p {
   margin-bottom: 20px;
   padding: 20px;
-  font-size: 20px;
+  font-size: 15px;
   color: #5b3427;
   text-align: justify;
 }
@@ -229,7 +225,7 @@ footer {
 .produtos,
 #curso {
   background-color: #ffb1bb80;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .produtos article {
@@ -243,24 +239,24 @@ footer {
 
 /*section curso*/
 #curso .container .content h2 {
-  text-align: left;
+  text-align: center;
 }
 
 #curso .container {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
 }
 
 #curso .container .content{
-  margin-right: 30px;
+  margin-right: 80px;
   color: #5b3427;
   text-align: justify;
 }
 
 /*section comentarios*/
 #comentarios {
-  padding: 80px 80px;
+  padding: 0;
 }
 
 #comentarios img {
@@ -280,21 +276,21 @@ footer {
 }
 
 #comentarios article blockquote {
-  font-size: 20px;
+  font-size: 15px;
   font-style: italic;
   padding: 20px;
   color: #5b3427;
 }
 
 #comentarios article cite {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   color: #5b3427;
 }
 
 /*social-medias section*/
 #social-medias {
-  padding: 80px 0;
+  padding: 40px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -314,8 +310,8 @@ footer {
 }
 
 #social-medias ul li a img{
-  width: 50px;
-  height: 50px; 
+  width: 30px;
+  height: 30px; 
 
 }
 
@@ -325,7 +321,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 55.5vh;
   display: flex;
   align-items: center;
   border-top: #5b3427 5px solid;
@@ -349,7 +345,7 @@ footer {
 }
 
 #sobre img {
-  width: 200%;
+  width: 65.5vh;
   height: 300%;
   border-left: #5b3427 5px solid;
 }
@@ -381,7 +377,7 @@ form input,
 form textarea {
   display: block;
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 8px;
   padding: 8px;
 }
@@ -395,7 +391,7 @@ form textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 50px;
+  padding: 40px 40px;
 }
 
 .e-book {
@@ -417,14 +413,14 @@ form .terms #checkbox-termos {
 }
 
 .formulario .terms {
-  font-size: 25px;
+  font-size: 20px;
   color: #5b3427;
   margin-bottom: 15px;
 }
 
 form button,
 .text-book a {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 100;
   padding: 8px 20px;
   margin-right: 10px;
@@ -448,7 +444,7 @@ input:focus, textarea:focus {
   flex-direction: column;
   align-items: center;
   color: #5b3427;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .e-book .text-book p {
